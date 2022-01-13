@@ -1,19 +1,19 @@
 ## RSA utility for Node
 
-A thin wrapper for OpenSSL's rsautl(1) for those precious few cases where native bindings won't work.
+A thin wrapper for OpenSSL's rsautl(1) for those precious few cases where native bindings won't work. This is a complete rewrite based on https://www.npmjs.com/package/rsautl
 
 
 ### Installation
 
 ```bash
-$ npm install rsautl
+$ npm install simple_rsautl
 ```
 
 
 ### Usage
 
 ```javascript
-const rsautl = require('rsautl');
+const rsautl = require('simple_rsautl');
 
 const privateKey = '...';
 const publicKey = '...';
