@@ -1,0 +1,14 @@
+{
+  "name": "simple_rsautl",
+  "version": "1.0.0",
+  "description": "A simple wrapper for OpenSSL's rsautl",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ilmar Türk",
+  "license": "ISC"
+}
